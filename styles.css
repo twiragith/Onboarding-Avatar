@@ -1,0 +1,105 @@
+/* Reset some default browser styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Set up the basic page layout */
+html, body {
+    height: 100%;
+    font-family: 'Helvetica Neue', Arial, sans-serif;
+    line-height: 1.6;
+    color: #333;
+    background-color: #f9f9f9;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+/* Container for consistent spacing */
+.container {
+    width: 80%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Header styling */
+header {
+    background-color: #13294B; /* Nagarro's blue color */
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+/* Main section styling */
+main {
+    flex: 1;
+    margin: 20px 0;
+}
+
+/* Section titles */
+h2 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+    color: #13294B;
+}
+
+/* Welcome section styling */
+.welcome p {
+    font-size: 1.1em;
+    margin-bottom: 20px;
+}
+
+/* About section styling */
+.about p {
+    font-size: 1.1em;
+    margin-bottom: 20px;
+}
+
+/* Values list styling */
+.values ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+.values li {
+    background: #eee;
+    margin: 10px 0;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+/* Programs section styling */
+.programs ul {
+    list-style-type: disc;
+    margin-left: 20px;
+}
+
+/* Next steps styling */
+.next-steps p {
+    font-size: 1.1em;
+    margin-bottom: 10px;
+}
+
+.next-steps ol {
+    padding-left: 20px;
+}
+
+/* Footer styling */
+footer {
+    background-color: #13294B;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    margin-top: 20px;
+}
